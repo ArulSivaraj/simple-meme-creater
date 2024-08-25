@@ -1,0 +1,26 @@
+
+.meme-generator{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  .meme-generator img{
+    height: 430px;
+    object-fit: cover;
+  
+  }
+  .generate-meme-btn{
+    font-weight: bolder;
+    background-image: linear-gradient(to right,red 0%,blue 51%,yellow 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+  }
+  .generate-meme-btn:hover{
+    background-position: right center;
+    color: wheat;
+  
+  }
